@@ -12,7 +12,7 @@ const Modal = ({ isOpen, setIsOpen, showFeedback }) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'alan_ai', e.target, 'user_dhVImkgxaL27bxQ8pLPQ5')
+    emailjs.sendForm('gmail', 'nausahdalamnews_aia', e.target, 'user_QmsO6o7rNHr5AaV1BQ49W')
       .then((result) => { console.log(result.text); }, (error) => { console.log(error.text); });
   };
 
